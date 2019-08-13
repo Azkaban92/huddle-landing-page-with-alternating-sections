@@ -173,19 +173,57 @@
             background-position: center;
             height: 37px;}
 
-.section-e {color: white; background-color: hsl(192, 100%, 9%);}
+.section-e {color: white;
+            background-color: hsl(192, 100%, 9%);
+            display: flex;
+            flex-flow: column nowrap;}
 
+.wlogo {fill: white;}
 
+.section-e__h {text-transform: uppercase;
+               margin-top: 78px;
+               margin-bottom: 30px;}
 
+.section-e__p {margin-bottom: 39px;
+               width: 90%;}
 
+.section-e__column1 {order: 2;
+                     margin-left: 30px;}
 
+.section-e__column2 {order: 1;
+                     margin-left: 30px;
+                     align-items: center;}
 
+.section-e__sub-column2 {display: flex;
+                         flex-flow: column nowrap;
+                         width: 90%;}
 
+.section-e__input {height: 46px;
+                   border-radius: 10px;}
 
+.section-e__btn {width: 160px;
+                 align-self: flex-end;
+                 padding: 18px 43px;
+                 color: white;
+                 background-color: hsl(322, 100%, 66%);
+                 border: none;
+                 border-radius: 10px;
+                 margin-top: 16px;
+                 margin-bottom: 103px;}
 
+.logo-bottom {transform: scale(0.825);
+              margin-left: -20px;
+              margin-bottom:23px;}
 
+.section-e__initial-p {margin-bottom: 50px; width: 79.29%;}
 
+.info__phone {margin-bottom: 23px;}
 
+.info__email {margin-bottom: 52px;}
+
+.fa-instagram {margin: 0px 18px;}
+
+.icons {margin-bottom: 45px;}
 
 
 
