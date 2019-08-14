@@ -11,6 +11,7 @@
 /* Header */
 
 .logo {width: 96px;
+       float: left;
        margin-top: 30px;
        margin-left: 24px;}
 
@@ -27,11 +28,13 @@
 
 .intro-wrapper {display: flex;
                 flex-flow: column nowrap;
-                align-items: center;}
+                align-items: center;
+                clear: both;}
 
-.section-a__h {margin-top: 128px;
+.section-a__h {padding-top: 138px;
                text-align: center;
-               margin-bottom: 36px;}
+               margin-bottom: 36px;
+               clear: both;}
 
 .section-a__p {text-align: center;
                width: 77.78%;
@@ -112,11 +115,9 @@
                 flex-flow: column nowrap;
                 align-items: center;}
 
-.four {margin-bottom: 96px;
-       margin-bottom: 122.3px;}
+.four {margin-bottom: 96px;}
 
-.section-c__four-wrapper__h {margin-bottom: 27px;
-                             margin-bottom: 21.7px;}
+.section-c__four-wrapper__h {margin-bottom: 27px;}
 
 .section-c__four-wrapper__p {margin-bottom: 72px;
                              width: 81.6%;
@@ -215,27 +216,264 @@
               margin-left: -20px;
               margin-bottom:23px;}
 
-.section-e__initial-p {margin-bottom: 50px; width: 79.29%;}
+.section-e__initial-p {margin-bottom: 50px;
+                       width: 79.29%;}
 
 .info__phone {margin-bottom: 23px;}
 
 .info__email {margin-bottom: 52px;}
 
+/* Icons */
+
 .fa-instagram {margin: 0px 18px;}
 
 .icons {margin-bottom: 45px;}
 
+}
 
+@media screen and (min-width: 1200px) and (max-width: 1920px)
 
+{
 
+  .logo {margin-top: 80px;
+         margin-left: 80px;}
 
+  .try {float: right;
+        margin-top: 72px;
+        font-size: 30px;
+        margin-right: 72px;
+        color: hsl(322, 100%, 66%);
+        border-radius: 25px;
+        border: 1px solid hsl(322, 100%, 66%);
+        padding: 8px 18px;}
 
+        /* Section-a */
 
+.intro-wrapper {display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                clear: both;}
 
+.section-a__h {padding-top: 138px;
+               text-align: center;
+               font-size: 50px;
+               margin-bottom: 36px;
+               clear: both;}
 
+.section-a__p {text-align: center;
+               width: 590px;
+               font-size: 22px;
+               margin-bottom: 50px;}
 
+.section-a__btn {padding: 34px 101px;
+                 color: white;
+                 background-color: hsl(322, 100%, 66%);
+                 box-shadow: 0 7px 5px hsla(192, 100%, 9%,0.2);
+                 border: none;
+                 border-radius: 100px;
+                 margin-bottom: 104px;}
 
+.mockups {width: 882px;
+          margin-bottom: 129px;}
 
+.mockups-wrapper {display: flex;
+                  justify-content: center;}
 
+/* Section-b */
+
+.section-b {display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;}
+
+.communities {width: 47px;
+              margin-bottom: 32px;}
+
+.messages {width: 39px;
+           margin-bottom: 36px;}
+
+.communities__n,
+.messages__n {font-size: 108px;
+              margin-bottom: 26px;}
+
+.communities__p {margin-bottom: 150px;
+                 font-size: 28px;}
+
+.messages__p {text-align: center;
+              margin-bottom: 33px;
+              font-size: 28px;}
+
+/* Section-c */
+
+.two,
+.three,
+.four {width: 490px;}
+
+.bg-top1 {background-image: url(../img/bg-section-top-desktop-1.svg);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 130px;}
+
+.two {margin-bottom: 84px;
+      margin-top: 99px;}
+
+.section-c__two-wrapper__h {margin-bottom: 27px;
+                            font-size: 46px;}
+
+.section-c__two-wrapper__p {margin-bottom: 72px;
+                            width: 488px;
+                            font-size: 18px;}
+
+.section-c__column1 {order: 1;
+                     margin-left: 130px;}
+
+.section-c__column2 {order: 2;
+                     margin-right: 158px;}
+
+.two-wrapper {display: flex;
+              flex-flow: row nowrap;
+              justify-content: space-between;
+              align-items: center;
+              background-color: hsl(207, 100%, 98%);}
+
+.bg-bottom1 {background-image: url(../img/bg-section-bottom-desktop-1.svg);
+             background-size: 100% 100%;
+             background-repeat: no-repeat;
+             background-position: center;
+             height: 78px;
+             margin-bottom: 206px;}
+
+.four-wrapper {display: flex;
+               flex-flow: row nowrap;
+               align-items: center;
+               justify-content: space-between;}
+
+.four {margin-bottom: 113px;}
+
+.section-c__four-wrapper__h {margin-bottom: 33px;
+                             font-size: 46px;}
+
+.section-c__four-wrapper__p {margin-bottom: 72px;
+                             width: 514px;
+                             font-size: 18px;}
+
+.section-c__column3 {margin-left: 144px;}
+
+.section-c__column4 {margin-right: 126px;}
+
+.bg-top2 {background-image: url(../img/bg-section-top-desktop-2.svg);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 130px;}
+
+.three {margin-bottom: 84px;
+      margin-top: 99px;}
+
+.section-c__three-wrapper__h {margin-bottom: 27px;
+                            font-size: 46px;}
+
+.section-c__three-wrapper__p {margin-bottom: 72px;
+                            width: 488px;
+                            font-size: 18px;}
+
+.section-c__column5 {order: 1;
+                     margin-left: 130px;}
+
+.section-c__column6 {order: 2;
+                     margin-right: 158px;}
+
+.three-wrapper {display: flex;
+              flex-flow: row nowrap;
+              justify-content: space-between;
+              align-items: center;
+              background-color: hsl(207, 100%, 98%);}
+
+.bg-bottom2 {background-image: url(../img/bg-section-bottom-desktop-2.svg);
+             background-size: 100% 100%;
+             background-repeat: no-repeat;
+             background-position: center;
+             height: 78px;
+             margin-bottom: 206px;}
+
+/* Section-d */
+
+.section-d {display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            text-align: center;}
+
+.section-d__h {width: 800px;
+               margin-bottom: 54px;
+               font-size: 50px;}
+
+.section-d__btn {margin-bottom: 179px;
+                 padding: 35px 101px;
+                 border: none;
+                 border-radius: 100px;
+                 box-shadow: 0 5px 7px hsla(207, 100%, 98%, 0.2);
+                 background-color: hsl(322, 100%, 66%);
+                 color: white;}
+
+/* Footer */
+
+.bg-footer {background-image: url(../img/bg-footer-top-desktop.svg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 152px;}
+
+.section-e {color: white;
+            background-color: hsl(192, 100%, 9%);
+            display: flex;
+            flex-flow: row nowrap;}
+
+.wlogo {fill: white;}
+
+.section-e__h {text-transform: uppercase;
+               margin-top: 140px;
+               font-size: 26px;
+               margin-bottom: 30px;}
+
+.section-e__p {margin-bottom: 39px;
+               width: 90%;}
+
+.section-e__column1 {order: 1;
+                     margin-top: 140px;
+                     margin-left: 120px;}
+
+.section-e__column2 {order: 2;
+                     margin-right: 306px;}
+
+.section-e__sub-column2 {display: flex;
+                         flex-flow: row nowrap;}
+
+.section-e__input {height: 46px;
+                   border-radius: 10px;}
+
+.section-e__btn {width: 160px;
+                 align-self: flex-end;
+                 padding: 18px 43px;
+                 color: white;
+                 background-color: hsl(322, 100%, 66%);
+                 border: none;
+                 border-radius: 10px;
+                 margin-top: 16px;
+                 margin-bottom: 103px;}
+
+.logo-bottom {margin-bottom:23px;}
+
+.section-e__initial-p {margin-bottom: 50px;
+                       width: 23.33%;}
+
+.info__phone {margin-bottom: 23px;}
+
+.info__email {margin-bottom: 52px;}
+
+/* Icons */
+
+.fa-instagram {margin: 0px 18px;}
+
+.icons {margin-bottom: 45px;}
 
 }
