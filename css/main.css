@@ -197,6 +197,7 @@
 
 .bg-footer {background-image: url(../img/bg-footer-top-mobile.svg);
             background-size: 100% 100%;
+            width: 100%;
             background-repeat: no-repeat;
             background-position: center;
             height: 37px;}
@@ -469,6 +470,7 @@
 
 .bg-footer {background-image: url(../img/bg-footer-top-desktop.svg);
             background-size: 100% 100%;
+            width: 100%;
             background-repeat: no-repeat;
             background-position: center;
             height: 152px;}
