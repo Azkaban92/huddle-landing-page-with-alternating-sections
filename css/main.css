@@ -83,6 +83,15 @@
 .three,
 .four {width: 244px;}
 
+.section-c__column1,
+.section-c__column2,
+.section-c__column3,
+.section-c__column4,
+.section-c__column5,
+.section-c__column6  {display: flex;
+                      flex-flow: column nowrap;
+                      align-items: center;}
+
 .bg-top1 {background-image: url(../img/bg-section-top-mobile-1.svg);
           background-size: 100% 100%;
           background-repeat: no-repeat;
@@ -164,6 +173,7 @@
                  border: none;
                  border-radius: 25px;
                  background-color: hsl(322, 100%, 66%);
+                 box-shadow: 0 7px 5px hsla(192, 100%, 9%,0.2);
                  color: white;}
 
 /* Footer */
@@ -223,6 +233,8 @@
 
 .info__email {margin-bottom: 52px;}
 
+.phone, .email {margin-right: 21px;}
+
 /* Icons */
 
 .fa-instagram {margin: 0px 18px;}
@@ -268,7 +280,7 @@
 .section-a__btn {padding: 34px 101px;
                  color: white;
                  background-color: hsl(322, 100%, 66%);
-                 box-shadow: 0 7px 5px hsla(192, 100%, 9%,0.2);
+                 box-shadow: 0 7px 5px hsla(192, 100%, 9%, 0.2);
                  border: none;
                  border-radius: 100px;
                  margin-bottom: 104px;}
@@ -411,7 +423,7 @@
                  padding: 35px 101px;
                  border: none;
                  border-radius: 100px;
-                 box-shadow: 0 5px 7px hsla(207, 100%, 98%, 0.2);
+                 box-shadow: 0 7px 5px hsla(192, 100%, 9%,0.2);
                  background-color: hsl(322, 100%, 66%);
                  color: white;}
 
@@ -426,29 +438,34 @@
 .section-e {color: white;
             background-color: hsl(192, 100%, 9%);
             display: flex;
+            justify-content: space-between;
             flex-flow: row nowrap;}
 
 .wlogo {fill: white;}
 
 .section-e__h {text-transform: uppercase;
                margin-top: 140px;
-               font-size: 26px;
-               margin-bottom: 30px;}
+               font-size: 30px;
+               margin-bottom: 32px;}
 
-.section-e__p {margin-bottom: 39px;
-               width: 90%;}
+.section-e__p {margin-bottom: 44px;
+               width: 62.19%;}
 
 .section-e__column1 {order: 1;
+                     width: 300px;
                      margin-top: 140px;
                      margin-left: 120px;}
 
 .section-e__column2 {order: 2;
-                     margin-right: 306px;}
+                     width: 521px;
+                     margin-right: 120px;}
 
 .section-e__sub-column2 {display: flex;
                          flex-flow: row nowrap;}
 
 .section-e__input {height: 46px;
+                   width: 320px;
+                   margin-right: 40px;
                    border-radius: 10px;}
 
 .section-e__btn {width: 160px;
@@ -458,22 +475,23 @@
                  background-color: hsl(322, 100%, 66%);
                  border: none;
                  border-radius: 10px;
-                 margin-top: 16px;
                  margin-bottom: 103px;}
 
 .logo-bottom {margin-bottom:23px;}
 
-.section-e__initial-p {margin-bottom: 50px;
-                       width: 23.33%;}
+.section-e__initial-p {margin-bottom: 50px;}
 
 .info__phone {margin-bottom: 23px;}
 
-.info__email {margin-bottom: 52px;}
+.info__email {margin-bottom: 84px;}
+
+.phone, .email {margin-right: 21px;}
+
 
 /* Icons */
 
 .fa-instagram {margin: 0px 18px;}
 
-.icons {margin-bottom: 45px;}
+.icons {margin-bottom: 45px; font-size: 18px;}
 
 }
