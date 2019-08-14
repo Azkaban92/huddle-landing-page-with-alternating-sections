@@ -276,6 +276,7 @@
   .try {float: right;
         margin-top: 72px;
         font-size: 30px;
+        font-weight: 400;
         margin-right: 72px;
         color: hsl(322, 100%, 66%);
         border-radius: 25px;
@@ -297,11 +298,14 @@
 
 .section-a__p {text-align: center;
                width: 590px;
-               font-size: 22px;
+               font-weight: 400;
+               font-size: 20px;
                margin-bottom: 50px;}
 
 .section-a__btn {padding: 34px 101px;
                  color: white;
+                 font-size: 20px;
+                 font-weight: 600;
                  background-color: hsl(322, 100%, 66%);
                  box-shadow: 0 7px 5px hsla(192, 100%, 9%, 0.2);
                  border: none;
@@ -331,11 +335,15 @@
               margin-bottom: 26px;}
 
 .communities__p {margin-bottom: 150px;
-                 font-size: 28px;}
+                 font-size: 28px;
+                 font-weight: 400;
+                 color: #898d90;}
 
 .messages__p {text-align: center;
               margin-bottom: 33px;
-              font-size: 28px;}
+              font-size: 28px;
+              font-weight: 400;
+              color: #898d90;}
 
 /* Section-c */
 
@@ -353,11 +361,13 @@
       margin-top: 99px;}
 
 .section-c__two-wrapper__h {margin-bottom: 27px;
-                            font-size: 46px;}
+                            font-size: 46px;
+                            font-weight: 600;}
 
 .section-c__two-wrapper__p {margin-bottom: 72px;
                             width: 488px;
-                            font-size: 18px;}
+                            font-weight: 400;
+                            font-size: 16px;}
 
 .section-c__column1 {order: 1;
                      margin-left: 130px;}
@@ -386,11 +396,13 @@
 .four {margin-bottom: 113px;}
 
 .section-c__four-wrapper__h {margin-bottom: 33px;
-                             font-size: 46px;}
+                             font-size: 46px;
+                             font-weight: 600;}
 
 .section-c__four-wrapper__p {margin-bottom: 72px;
                              width: 514px;
-                             font-size: 18px;}
+                             font-weight: 400;
+                             font-size: 16px;}
 
 .section-c__column3 {margin-left: 144px;}
 
@@ -406,11 +418,13 @@
       margin-top: 99px;}
 
 .section-c__three-wrapper__h {margin-bottom: 27px;
-                            font-size: 46px;}
+                              font-size: 46px;
+                              font-weight: 600;}
 
 .section-c__three-wrapper__p {margin-bottom: 72px;
-                            width: 488px;
-                            font-size: 18px;}
+                              width: 519px;
+                              font-weight: 400;
+                              font-size: 16px;}
 
 .section-c__column5 {order: 1;
                      margin-left: 130px;}
@@ -438,13 +452,14 @@
             align-items: center;
             text-align: center;}
 
-.section-d__h {width: 800px;
+.section-d__h {width: 679px;
                margin-bottom: 54px;
-               font-size: 50px;}
+               font-size: 39px;}
 
 .section-d__btn {margin-bottom: 179px;
                  padding: 35px 101px;
                  border: none;
+                 font-weight: 600;
                  border-radius: 100px;
                  box-shadow: 0 7px 5px hsla(192, 100%, 9%,0.2);
                  background-color: hsl(322, 100%, 66%);
@@ -469,10 +484,13 @@
 .section-e__h {text-transform: uppercase;
                margin-top: 140px;
                font-size: 30px;
+               font-weight: 600;
                margin-bottom: 32px;}
 
 .section-e__p {margin-bottom: 44px;
-               width: 62.19%;}
+               width: 336px;
+               font-size: 14px;
+               font-weight: 400;}
 
 .section-e__column1 {order: 1;
                      width: 300px;
@@ -495,6 +513,7 @@
                  align-self: flex-end;
                  padding: 18px 43px;
                  color: white;
+                 font-weight: 600;
                  background-color: hsl(322, 100%, 66%);
                  border: none;
                  border-radius: 10px;
@@ -502,13 +521,18 @@
 
 .logo-bottom {margin-bottom:23px;}
 
-.section-e__initial-p {margin-bottom: 50px;}
+.section-e__initial-p {margin-bottom: 50px;
+                       width: 300px;
+                       font-size: 14px;
+                       font-weight: 400;}
 
 .info__phone {margin-bottom: 23px;}
 
-.info__email {margin-bottom: 84px;}
+.info__email {margin-bottom: 84px;
+              font-weight: 400;}
 
-.phone, .email {margin-right: 21px;}
+.phone, .email {margin-right: 21px;
+                font-weight: 400;}
 
 
 /* Icons */
