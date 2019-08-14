@@ -2,7 +2,13 @@
 
 
 * {margin: 0;
-   padding: 0;}
+   padding: 0;
+   font-weight: 700;}
+
+.standard {font-family: "Open Sans";}
+
+.not-standard {font-family: "Poppins";}
+
 
 @media screen and (max-width: 767px)
 
@@ -16,6 +22,7 @@
        margin-left: 24px;}
 
 .try {float: right;
+      font-weight: 400;
       margin-top: 22px;
       font-size: 14px;
       margin-right: 24px;
@@ -38,11 +45,12 @@
 
 .section-a__p {text-align: center;
                width: 77.78%;
-               margin-bottom: 50px;
-               }
+               font-weight: 400;
+               margin-bottom: 50px;}
 
 .section-a__btn {padding: 16px 40px;
                  color: white;
+                 font-weight: 400;
                  background-color: hsl(322, 100%, 66%);
                  box-shadow: 0 7px 5px hsla(192, 100%, 9%,0.2);
                  border: none;
@@ -72,10 +80,12 @@
 .messages__n {font-size: 56px;
               margin-bottom: 26px;}
 
-.communities__p {margin-bottom: 101px;}
+.communities__p {margin-bottom: 101px;
+                 font-weight: 400;}
 
 .messages__p {text-align: center;
-              margin-bottom: 33px;}
+              margin-bottom: 33px;
+              font-weight: 400;}
 
 /* Section-c */
 
@@ -101,11 +111,12 @@
 .two {margin-bottom: 84px;
       margin-top: 99px;}
 
-.section-c__two-wrapper__h {margin-bottom: 27px;}
+.section-c__two-wrapper__h {margin-bottom: 27px; font-weight: 600;}
 
 .section-c__two-wrapper__p {margin-bottom: 72px;
                             width: 81.6%;
-                            text-align: center;}
+                            text-align: center;
+                            font-weight: 400;}
 
 .two-wrapper {display: flex;
               flex-flow: column nowrap;
@@ -126,10 +137,12 @@
 
 .four {margin-bottom: 96px;}
 
-.section-c__four-wrapper__h {margin-bottom: 27px;}
+.section-c__four-wrapper__h {margin-bottom: 27px;
+                             font-weight: 600;}
 
 .section-c__four-wrapper__p {margin-bottom: 72px;
                              width: 81.6%;
+                             font-weight: 400;
                              text-align: center;}
 
 .bg-top2 {background-image: url(../img/bg-section-top-mobile-2.svg);
@@ -141,10 +154,12 @@
 .three {margin-bottom: 90px;
         margin-top: 24px;}
 
-.section-c__three-wrapper__h {margin-bottom: 27px;}
+.section-c__three-wrapper__h {margin-bottom: 27px;
+                              font-weight: 600;}
 
 .section-c__three-wrapper__p {margin-bottom: 132px;
                               width: 81.6%;
+                              font-weight: 400;
                               text-align: center;}
 
 .three-wrapper {display: flex;
@@ -166,11 +181,13 @@
             align-items: center;
             text-align: center;}
 
-.section-d__h {width: 237px; margin-bottom: 47px;}
+.section-d__h {width: 243px;
+               margin-bottom: 47px;}
 
 .section-d__btn {margin-bottom: 252px;
                  padding: 16px 40px;
-                 border: none;
+                 border: none;7
+                 font-weight: 400;
                  border-radius: 25px;
                  background-color: hsl(322, 100%, 66%);
                  box-shadow: 0 7px 5px hsla(192, 100%, 9%,0.2);
@@ -193,9 +210,11 @@
 
 .section-e__h {text-transform: uppercase;
                margin-top: 78px;
+               font-weight: 600;
                margin-bottom: 30px;}
 
 .section-e__p {margin-bottom: 39px;
+               font-weight: 400;
                width: 90%;}
 
 .section-e__column1 {order: 2;
@@ -216,6 +235,7 @@
                  align-self: flex-end;
                  padding: 18px 43px;
                  color: white;
+                 font-weight: 600;
                  background-color: hsl(322, 100%, 66%);
                  border: none;
                  border-radius: 10px;
@@ -227,19 +247,22 @@
               margin-bottom:23px;}
 
 .section-e__initial-p {margin-bottom: 50px;
+                       font-weight: 400;
                        width: 79.29%;}
 
 .info__phone {margin-bottom: 23px;}
 
-.info__email {margin-bottom: 52px;}
+.info__email {margin-bottom: 52px;
+              font-weight: 400;}
 
-.phone, .email {margin-right: 21px;}
+.phone, .email {margin-right: 21px;
+                font-weight: 400;}
 
 /* Icons */
 
-.fa-instagram {margin: 0px 18px;}
+.fa-instagram {margin: 0px 17px;}
 
-.icons {margin-bottom: 45px;}
+.icons {margin-bottom: 45px; font-size: 24px;}
 
 }
 
